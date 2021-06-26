@@ -1,7 +1,9 @@
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
+
 header {
   padding-bottom: 14px;
   padding-top: 15px;
@@ -96,3 +98,26 @@ header a {
 .product img {
   margin-left: 41px;
 }
+.plan {
+  text-align: center;
+}
+._sect_ {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.footer-1 img {
+  width: 20px;
+  height: 20px;
+}
+.footer h3 {
+  text-align: center;
+}
+.class p {
+  text-align: end;
+}
+.class img {
+  width: 20px;
+  height: 20px;
+}
+
