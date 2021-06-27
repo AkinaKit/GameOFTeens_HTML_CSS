@@ -2,14 +2,25 @@
   margin: 0;
   box-sizing: border-box;
 }
+@font-face {
+  font-family: "DejaVu Sans";
+  src: url("/fonts/DejaVuSans-Bold.ttf");
+  font-weight: 400;
+  font-size: 24px;
+}
+p {
+  font-family: "DejaVu Sans";
+}
 header {
   padding-bottom: 14px;
   padding-top: 15px;
 }
+.product p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 header h2 {
-  font-weight: 400;
   font-family: "DejaVu Sans";
-  font-size: 24px;
 }
 input[type="checkbox"],
 label {
@@ -18,6 +29,7 @@ label {
   right: 20px;
   top: 20px;
 }
+
 @media (max-width: 517px) {
   header nav {
     display: none;
@@ -84,6 +96,7 @@ header ul {
 }
 header li {
   margin-left: 20px;
+  margin-right: 10px;
 }
 header a {
   text-decoration: none;
@@ -92,7 +105,59 @@ header a {
   display: flex;
   margin-left: 36px;
   margin-right: 19px;
+  width: 100%;
+  max-width: 485px;
+  margin: 0 auto;
+}
+@media (max-width: 320px) {
+  .product img {
+    display: none;
+  }
+  .product {
+    align-items: center;
+  }
 }
 .product img {
   margin-left: 41px;
+}
+.learm_more {
+  background-color: #29323d;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+}
+.services {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+  flex-wrap: wrap;
+}
+.bloc {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.Benefit_One {
+  width: 310px;
+  align-items: center;
+}
+.Benefit_One_img {
+  margin-left: 110px;
+}
+.Benefit_Two {
+  margin-left: 10px;
+  width: 310px;
+}
+.Benefit_Three {
+  margin-left: 10px;
+  width: 320px;
+}
+.learm_more a {
+  padding-right: 20px;
+  color: #fff;
+  text-decoration: none;
+  padding-left: 21px;
+  padding-bottom: 6px;
+  padding-right: 6px;
 }
