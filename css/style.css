@@ -5,11 +5,16 @@
 }
 .plan {
   text-align: center;
+  margin-bottom: 30px;
 }
 ._sect_ {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+.sect p {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .footer-1 img {
   width: 20px;
@@ -22,6 +27,16 @@
   text-align: end;
 }
 .class img {
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
+  margin-top: 90px;
+}
+.third p {
+  width: 25%;
+}
+.third input {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  padding: 10px;
 }
