@@ -1,7 +1,9 @@
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
+
 @font-face {
   font-family: "DejaVu Sans";
   src: url("/fonts/DejaVuSans-Bold.ttf");
@@ -11,6 +13,7 @@
 p {
   font-family: "DejaVu Sans";
 }
+
 header {
   padding-bottom: 14px;
   padding-top: 15px;
@@ -160,4 +163,31 @@ header a {
   padding-left: 21px;
   padding-bottom: 6px;
   padding-right: 6px;
+}
+.second {
+  border-radius: 1px #29323d;
+  border: 10px #29323d;
+}
+._sect_ {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.footer-1 img {
+  width: 20px;
+  height: 20px;
+}
+.footer h3 {
+  text-align: center;
+}
+.class p {
+  text-align: end;
+}
+.foot-2 {
+  display: flex;
+}
+.class img {
+  width: 20px;
+  height: 20px;
 }
