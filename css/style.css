@@ -101,6 +101,7 @@ header a {
 .plan {
   text-align: center;
   margin-bottom: 30px;
+  margin-top: 100px;
 }
 ._sect_ {
   display: flex;
@@ -122,7 +123,6 @@ header a {
   text-align: end;
 }
 .class img {
-<<<<<<< HEAD
   width: 40px;
   height: 40px;
   margin-top: 90px;
@@ -136,9 +136,8 @@ header a {
   margin-right: 20px;
   padding: 10px;
 }
-=======
-  width: 20px;
-  height: 20px;
+.class-2 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
 }
-
->>>>>>> 007089e25a6b4413958a2b1650421c42885d260a
